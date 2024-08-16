@@ -10,7 +10,7 @@ Virtual Environment: (Optional) Create and activate a virtual environment for yo
 Setup
 1. Clone the repository
 Clone this repository to your local machine:
-git clone https://github.com/yourusername/pipelineboti.git
+git clone https://github.com/yourusername/pipelinepfa.git
 cd pipelineboti
 2. Create a Virtual Environment (Optional)
 Create and activate a virtual environment:
