@@ -55,3 +55,12 @@ This project is licensed under the MIT License - see the LICENSE file for detail
 Acknowledgments
 Apache Beam for providing the unified programming model.
 Google Cloud Platform for hosting and computing services.
+
+
+
+
+if it doesnt work try it in a virtual environement ($ python3 -m venv testenv) dont forget to activate it (.\testenv\Scripts\activate) and also install gcp sdk with pip (pip install apache-beam[gcp]) you'll also need to change the bucket name and bigquery dataset to yours after you authentificated with gcloud on your terminal (gcloud auth) and created your buckets and sink.
+
+you might need to install some libraries try ($ pip install apache-beam[gcp] google-cloud-storage google-cloud-bigquery pandas) and set environment variable for authentication (export GOOGLE_APPLICATION_CREDENTIALS="/path/to/your/credentials.json")
+
+if there's a problem and the code wont work for you try installing the gcp sdk and libraries in the same virtual env or eun them in higher privileges (root for linux users) (sudo -your cmd)
